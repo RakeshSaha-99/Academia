@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 208, 169));
+  font-family: "Raleway", sans-serif;
+}
+.greetingExamPage {
+  margin: auto;
+  width: 100%;
+  background: linear-gradient(rgb(255, 208, 169), rgb(255, 255, 255));
+  color: rgb(46, 46, 46);
+  padding: 8% 0 4% 0;
+  text-align: center;
+}
+.greetingExamPage > h3 {
+  font-size: 26px;
+  margin-top: 2%;
+  color: rgb(87, 85, 85);
+  font-family: "Orelega One", cursive;
+}
+.greetingExamPage > h2 {
+  font-size: 40px;
+  font-family: "Orelega One", cursive;
+}
+.addQuestionExam {
+  margin-top: 2%;
+  font-size: 16px;
+  width: 80%;
+  padding: 2%;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.932);
+  box-shadow: 10px 10px 50px teal;
+}
+.addQuestionExam > div {
+  padding: 1%;
+  margin: 1%;
+}
+.addQuestionExam > div input {
+  margin: 1% 1%;
+}
+.addQuestionExam > div label {
+  margin-right: 3%;
+}
+.submitAnswer {
+  width: 200px;
+  margin-left: 12%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  z-index: 2;
+  box-shadow: 1px 1px 45px rgb(255, 242, 185);
+  padding: 0.5% 3%;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+}
+.getQuestion {
+  background-color: antiquewhite;
+  padding: 0.5% 3%;
+  margin-top: 2%;
+  box-shadow: 1px 2px 8px rgb(230, 230, 133);
+  border: 1px solid aquamarine;
+}
