@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Academia</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Main_Icon.png" />
+
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <section class="top_bar" style="width: 100%">
+        <nav
+          id="nav_bar"
+          class="navbar navbar-expand-lg navbar-dark fixed-top"
+          style="background-color: #1d1d1d"
+        >
+          <a id="brand_name" class="navbar-brand" href="index.html"
+            ><img id="main_icon_img" src="Main_Icon.png" alt="" />academia</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- navigation part starts from here  -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- these are the lists of navigation  -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="top_bar_text_home"
+                  href="index.html"
+                >
+                  Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link top_bar_text" href=""> Courses</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link top_bar_text" href="about.html"> About Us</a>
+              </li>
+            
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <div class="backgroundImageDiv">
+        <div class="dashboardHeader">
+          <h1>Academia Dashboard</h1>
+          <!-- <h3>Committed To Excellence In Education</h3> -->
+        </div>
+        <div>
+          <div class="dashboardContent">
+            <h3 class="dashboard_h3"><span class="dashboard_h3_span">Hello</span>, All the best for your exam</h3>
+            <label class="subjectLabel" for="">Choose Subject</label>
+            <select class="chooseSubject" name="subject" id="subject-choose">
+              <option value="math">Math</option>
+              <option value="gk">GK</option>
+              <option value="english">English</option>
+            </select>
+            <button id="startExamButton" onclick="startExamButton()">
+              Start Exam
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="footer_part" style="margin-top: 0">
+      <div class="container_fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 footer_part_div">
+            <a href="" class="footer_part_headings">About</a>
+            <p class="footer_part_texts">
+              Academist is dedicated to constant learning & knowledge sharing.
+            </p>
+            <a href="" class="fas fa-map-marker-alt footer_part_link">
+              743263 Ramakrishna Sarani
+            </a>
+            <!-- <i class="fas fa-map-marker-alt"></i> -->
+            <p></p>
+            <a href="" class="fas fa-phone-volume footer_part_link">
+              +91 8538076381</a
+            >
+            <!-- <i class="fas fa-phone-volume"></i> -->
+            <p></p>
+            <a href="" class="far fa-clock footer_part_link">
+              Mon-Sat 10am-5pm</a
+            >
+            <!-- <i class="far fa-clock"></i> -->
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 footer_part_div">
+            <a href="" class="footer_part_headings">Popular Courses</a>
+            <p></p>
+
+            <a href="" class="footer_part_link_text_1"> Leadership Skill</a
+            ><br />
+            <a href="" class="footer_part_link_text_2">Pro Barje</a>
+            <p></p>
+            <a href="" class="footer_part_link_text_1"> Confidence Building</a
+            ><br />
+            <a href="" class="footer_part_link_text_2">Jayee Dasu</a>
+            <p></p>
+            <a href="" class="footer_part_link_text_1"> Personality Buliding</a
+            ><br />
+            <a href="" class="footer_part_link_text_2">Ana Bonggirl</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 footer_part_div">
+            <a href="" class="footer_part_headings">Support</a>
+            <p></p>
+
+            <a href="" class="footer_part_link_text_3"> About Us</a>
+            <p></p>
+            <a href="" class="footer_part_link_text_3"> Registration</a><br />
+            <p></p>
+            <a href="" class="footer_part_link_text_3"> Available Courses</a>
+            <p></p>
+            <a href="" class="footer_part_link_text_3">Events</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 footer_part_div">
+            <a href="" class="footer_part_headings">Login Here!</a> <p></p>
+    
+            <a href="adminLogin.html" class=" footer_part_link_text_4">Admin</a>
+            <p></p>
+            <a href="teacherLogin.html" class=" footer_part_link_text_4"> Teacher</a><br>
+            <p></p>
+    
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 footer_section_text_div">
+            <i class="far fa-copyright">Copyright 2020 .....</i>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4 footer_section_text_div"> -->
+          <p class="footer_section_text">Connect With Us</p>
+          <!-- </div> -->
+
+          <!-- <div class="col-lg-4 col-md-4 col-sm-4 footer_section_text_div"> -->
+          <p class="footer_section_text_link">
+            <a
+              href="https://www.google.com/search?q=facebook&rlz=1C1AVFC_enIN740IN740&oq=fa&aqs=chrome.1.69i60j69i59l2j46j0j69i60l3.3220j1j7&sourceid=chrome&ie=UTF-8"
+              class="fab fa-facebook-f footer_section_link_icon"
+              id="footer-icons"
+            ></a>
+            <!-- <i class="fab fa-twitter"id="footer-icons"></i> -->
+            <a
+              href="https://twitter.com/explore "
+              class="fab fa-twitter footer_section_link_icon"
+              id="footer-icons"
+            ></a>
+
+            <!-- <i class="fab fa-instagram"id="footer-icons"></i> -->
+            <a
+              href="https://www.instagram.com/ "
+              class="fab fa-instagram footer_section_link_icon"
+              id="footer-icons"
+            ></a>
+
+            <!-- <i class="fab fa-snapchat"id="footer-icons"></i> -->
+            <a
+              href=" https://www.snapchat.com/"
+              class="fab fa-snapchat footer_section_link_icon"
+              id="footer-icons"
+            ></a>
+          </p>
+
+          <!-- </div> -->
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="dashboard.js"></script>
+</html>

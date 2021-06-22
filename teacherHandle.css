@@ -1,0 +1,146 @@
+body{
+    /*background-color: #f4cca4;*/
+    background: linear-gradient(0.25turn, #b48484, #ebf8e1, #f69d3c);
+    
+}
+.teacherHandleMainContainer{
+    
+    margin: 88px 20px 20px 20px;
+    background-color:#161616 ;
+    text-align: center;
+    border-radius: 10px 50px 10px 50px ;
+    font-size: 40px;
+    font-family:sans-serif;
+    color:white;
+    font-weight:bolder;
+    box-shadow: 5px 10px 10px 5px #5e454b8e;
+    padding: 2%;
+}
+.teacherHandleMainContainer:hover{
+    transform: scale(1.01);
+    transition: width 2s, height 4s;
+    background-color:#ddffbc;
+    color:black;
+}
+.teacherHandleVisibleContainer{
+    position: relative;
+    top: 50%;
+    left: 37%;
+    display: inline-block;
+    
+}
+.teacherHandleVisibleContainer label{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    display: inline-block;
+
+    
+}
+.teacherHandleVisibleContainer input{
+    height: 40px;
+    width: 300px;
+   /* margin: 5px 4px 2px 5px;*/
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #962d2d;
+    box-shadow: 1px transparent #583d72;
+    margin: 2px;
+    padding-left: 7px;
+}
+.teacherHandleVisibleContainer button{
+    height: 44px;
+    width: 60%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 87px;
+    border-radius: 10px;
+    color:white;
+    background-color:brown; 
+    border-color: blanchedalmond;
+}
+
+.teacherHandleVisibleContainer button:hover{
+    background-color:#e5d549;
+    color: black;
+}
+.teacherHandleVisibleContainer hr{
+    border-style: none;
+    border-top-style:dashed;
+    border-color: black;
+    border-width:5px;
+    width: 40%;
+    margin-left: 31%;
+  
+
+}
+.teacherHandleQuestionDeleteContainer h3{
+    text-align: center;
+    margin:0% 20px 20px 20px;
+}
+.teacherHandleQuestionDeleteContainer hr{
+    border-style: none;
+    border-top-style:double;
+    border-color: black;
+    border-width: 10px;
+    width: 31%;
+    margin-left: 35%;
+}
+.teacherHandleVisibleDelete label{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 37%;
+    display: inline-block;
+}
+.teacherHandleVisibleDelete input{
+    height: 35px;
+    width: 300px;
+    margin: 5px 4px 2px 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #f55c47;
+    padding-left: 8px;
+}
+.teacherHandleVisibleDelete button{
+    height: 44px;
+    width: 15%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 43%;
+    margin-right: 87px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    color:white;
+    background-color:brown; 
+    border-color: blanchedalmond;
+}
+.teacherHandleVisibleDelete button:hover{
+    background-color:#e5d549;
+    color: black;
+}
+.teacherHandlePara{
+    width: 50px;
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    z-index: 10;
+    background-color:azure;
+    text-align: center;
+}
+@media (max-width:1000px){
+.teacherHandleVisibleContainer{
+    left: 10%;
+}
+.teacherHandleVisibleDelete label{
+    margin-left: 10%;
+    
+}
+.teacherHandleQuestionDeleteContainer h3{
+    font-size: 22px;
+}
+
+}

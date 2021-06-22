@@ -1,0 +1,64 @@
+.dashboardHeader {
+  width: 100%;
+  margin: auto;
+  padding: 8% 10% 3% 8%;
+  text-align: right;
+  color: rgb(53, 53, 53);
+}
+.backgroundImageDiv {
+  background-image: url("https://d1uavkppl1300i.cloudfront.net/images/online-entrance-exam.png");
+  position: relative;
+}
+.dashboardHeader > h1 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 3%;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.dashboardContent {
+  width: 100%;
+  margin: auto;
+  padding: 2% 10% 2% 5%;
+  text-align: right;
+  color: rgb(85, 59, 59);
+  position: relative;
+  bottom: 35px;
+}
+.dashboardContent > button {
+  padding: 1% 4%;
+  margin: 4% 0 4% 0;
+  font-size: 19px;
+  background-color: rgb(255, 72, 72);
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 80px;
+  border: 0;
+  box-shadow: 1px 1px 8px rgb(255, 72, 0);
+}
+.dashboardContent > button:hover {
+  background-color: rgb(255, 72, 80);
+  transform: scale(1.1);
+}
+.chooseSubject {
+  padding: 0.5%;
+  border-radius: 8px;
+  background-color: rgb(166, 255, 255);
+  position: relative;
+  left: 200px;
+  margin: 1%;
+  font-size: 18px;
+}
+.subjectLabel {
+  font-size: 24px;
+  font-weight: 600;
+  color: rebeccapurple;
+  position: relative;
+  left: 200px;
+}
+.dashboard_h3{
+/* color: aliceblue; */
+padding-left: 60px;
+}
+.dashboard_h3_span{
+color: aliceblue;
+}

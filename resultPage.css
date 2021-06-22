@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(rgb(226, 242, 255), rgb(93, 255, 201));
+  color: rgb(209, 87, 0);
+}
+.resultContent {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 200px;
+  color: black;
+  height: 450px;
+}
+.resultContent h2 {
+  color: rgb(51, 51, 51);
+}
