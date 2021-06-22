@@ -16,7 +16,8 @@ function registerLogout(){
     if(registerContent=="Logout"){
         localStorage.clear();
         window.location.reload();
-    } else {
-        window.location.href = " /webexamcollege/register.html"
+    } 
+    else {
+        window.location.href = "register.html";
     }
 }
