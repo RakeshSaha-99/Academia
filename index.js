@@ -18,6 +18,6 @@ function registerLogout(){
         window.location.reload();
     } 
     else {
-        window.location.href = "/Academia/blob/main/register.html";
+        window.location.href = "Academia/blob/main/register.html";
     }
 }
