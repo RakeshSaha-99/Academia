@@ -17,6 +17,6 @@ function registerLogout(){
         localStorage.clear();
         window.location.reload();
     } else {
-        window.location.href = "/register.html"
+        window.location.href = " /webexamcollege/register.html"
     }
 }
