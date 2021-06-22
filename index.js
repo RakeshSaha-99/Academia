@@ -18,6 +18,6 @@ function registerLogout(){
         window.location.reload();
     } 
     else {
-        window.location.href = "58bb3e3f5d6efcf4d9ab4fd3a8b0f6bfa214134d/register.html";
+        window.location.href = "/register.html";
     }
 }
