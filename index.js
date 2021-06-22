@@ -18,6 +18,6 @@ function registerLogout(){
         window.location.reload();
     } 
     else {
-        window.location.href = "Academia/blob/main/register.html";
+        window.location.href = "https://github.com/RakeshSaha-99/Academia/blob/d43adc3e8e8f0a8862b16aa8ddc59e49af18c864/register.html";
     }
 }
